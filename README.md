@@ -1,5 +1,9 @@
 # Iosevka webfont
 
+## TODO
+
+- [ ] Add scripts to download automatically
+
 ## How to
 
 After **Iosevka** releasing new version, download webfont package then extract inside `docs/`

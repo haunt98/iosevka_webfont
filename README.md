@@ -1,4 +1,4 @@
-# iosevka webfont
+# Iosevka webfont
 
 ## How to
 

@@ -1,5 +1,9 @@
 # iosevka webfont
 
+## How to
+
+After **Iosevka** releasing new version, download webfont package then extract inside `docs/`
+
 ## Thanks
 
 - https://github.com/be5invis/Iosevka

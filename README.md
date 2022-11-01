@@ -2,11 +2,15 @@
 
 ## TODO
 
-- [ ] Add scripts to download automatically
+- [x] Add scripts to download automatically
 
 ## How to
 
-After **Iosevka** releasing new version, download webfont package then extract inside `docs/`
+After **Iosevka** releasing new version, sync it:
+
+```sh
+bash sync.sh
+```
 
 ## Thanks
 

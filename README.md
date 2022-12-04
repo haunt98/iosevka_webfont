@@ -6,7 +6,7 @@
 
 ## How to
 
-After **Iosevka** releasing new version, sync it:
+After **Iosevka** releasing new version, change new version in `sync.sh` then run:
 
 ```sh
 bash sync.sh

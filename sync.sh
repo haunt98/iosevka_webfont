@@ -1,16 +1,16 @@
 #!/usr/bin/env bash
 
-curl -L https://github.com/be5invis/Iosevka/releases/download/v16.8.0/webfont-iosevka-16.8.0.zip -o webfont-iosevka.zip
-curl -L https://github.com/be5invis/Iosevka/releases/download/v16.8.0/webfont-iosevka-term-16.8.0.zip -o webfont-iosevka-term.zip
+curl -L https://github.com/be5invis/Iosevka/releases/download/v16.8.2/webfont-iosevka-16.8.2.zip -o webfont-iosevka.zip
+curl -L https://github.com/be5invis/Iosevka/releases/download/v16.8.2/webfont-iosevka-term-16.8.2.zip -o webfont-iosevka-term.zip
 
-curl -L https://github.com/be5invis/Iosevka/releases/download/v16.8.0/webfont-iosevka-curly-16.8.0.zip -o webfont-iosevka-curly.zip
-curl -L https://github.com/be5invis/Iosevka/releases/download/v16.8.0/webfont-iosevka-term-curly-16.8.0.zip -o webfont-iosevka-term-curly.zip
+curl -L https://github.com/be5invis/Iosevka/releases/download/v16.8.2/webfont-iosevka-curly-16.8.2.zip -o webfont-iosevka-curly.zip
+curl -L https://github.com/be5invis/Iosevka/releases/download/v16.8.2/webfont-iosevka-term-curly-16.8.2.zip -o webfont-iosevka-term-curly.zip
 
-curl -L https://github.com/be5invis/Iosevka/releases/download/v16.8.0/webfont-iosevka-ss08-16.8.0.zip -o webfont-iosevka-ss08.zip
-curl -L https://github.com/be5invis/Iosevka/releases/download/v16.8.0/webfont-iosevka-term-ss08-16.8.0.zip -o webfont-iosevka-term-ss08.zip
+curl -L https://github.com/be5invis/Iosevka/releases/download/v16.8.2/webfont-iosevka-ss08-16.8.2.zip -o webfont-iosevka-ss08.zip
+curl -L https://github.com/be5invis/Iosevka/releases/download/v16.8.2/webfont-iosevka-term-ss08-16.8.2.zip -o webfont-iosevka-term-ss08.zip
 
-curl -L https://github.com/be5invis/Iosevka/releases/download/v16.8.0/webfont-iosevka-ss17-16.8.0.zip -o webfont-iosevka-ss17.zip
-curl -L https://github.com/be5invis/Iosevka/releases/download/v16.8.0/webfont-iosevka-term-ss17-16.8.0.zip -o webfont-iosevka-term-ss17.zip
+curl -L https://github.com/be5invis/Iosevka/releases/download/v16.8.2/webfont-iosevka-ss17-16.8.2.zip -o webfont-iosevka-ss17.zip
+curl -L https://github.com/be5invis/Iosevka/releases/download/v16.8.2/webfont-iosevka-term-ss17-16.8.2.zip -o webfont-iosevka-term-ss17.zip
 
 rm -rf docs/iosevka*
 
@@ -27,3 +27,7 @@ unzip webfont-iosevka-ss17.zip -d docs/iosevka-ss17
 unzip webfont-iosevka-term-ss17.zip -d docs/iosevka-term-ss17
 
 rm -rf *.zip
+
+git add .
+git commit -m "feat: sync 16.8.2"
+git push

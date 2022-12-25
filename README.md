@@ -1,10 +1,28 @@
 # Iosevka webfont
 
-## TODO
+## Usage
 
-- [x] Add scripts to download automatically
+Change `iosevka-term-ss08` to your liking.
+See `docs` to know which is support.
 
-## How to
+HTML:
+
+```html
+<link
+  href="https://haunt98.github.io/iosevka_webfont/iosevka-term-ss08/iosevka-term-ss08.css"
+  rel="stylesheet"
+/>
+```
+
+CSS:
+
+```css
+code {
+  font-family: "Iosevka Term SS08 Web";
+}
+```
+
+## Update
 
 After **Iosevka** releasing new version, change new version in `sync.sh` then run:
 
